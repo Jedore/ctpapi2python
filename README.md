@@ -8,6 +8,7 @@ python
 - ctpapi 6.6.9
 - Swig 4.1.1
 - VisualStudio 2022
+- python 3.10
 
 ## Swig 转 Python
 
@@ -15,6 +16,15 @@ python
 swig -threads -c++ -python thosttraderapi.i
 swig -threads -c++ -python thostmduserapi.i
 ```
+
+生成以下文件:
+
+- thosttraderapi.py
+- thosttraderapi_wrap.h
+- thosttraderapi_wrap.cxx
+- thostmduserapi.py
+- thostmduserapi_wrap.h
+- thostmduserapi_wrap.cxx
 
 ## Windows
 
