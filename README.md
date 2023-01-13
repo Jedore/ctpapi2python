@@ -20,4 +20,14 @@ swig -threads -c++ -python thostmduserapi.i
 
 下载 `windows/_thosttraderapi` `windows/_thostmduserapi` 这两个vs2022项目即可直接编译
 
+生成两个文件:
+
+- _thosttraderapi.dll
+- _thostmduserapi.dll
+
+改名为:
+
+- _thosttraderapi.pyd
+- _thostmduserapi.pyd
+
 ## Linux
