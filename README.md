@@ -1,1 +1,23 @@
-# ctp-to-python
+# ctpapi2python
+
+参考 [景色](https://github.com/nicai0609/Python-CTPAPI) 记录下 ctpapi 转换为
+python
+
+## 软件版本
+
+- ctpapi 6.6.9
+- Swig 4.1.1
+- VisualStudio 2022
+
+## Swig 转 Python
+
+```bash
+swig -threads -c++ -python thosttraderapi.i
+swig -threads -c++ -python thostmduserapi.i
+```
+
+## Windows
+
+下载 `windows/_thosttraderapi` `windows/_thostmduserapi` 这两个vs2022项目即可直接编译
+
+## Linux
